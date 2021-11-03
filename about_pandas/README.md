@@ -1,7 +1,7 @@
 # about pandas
 
 ## iterrows와 iteritems
-DataFrame형태의 data가 있을 때, 그 data의 행 또는 열을 반복하여 접근하고 싶을 때 사용할 수 있는 method입니다.
+DataFrame형태의 data가 있을 때, 그 data의 행 또는 열을 반복하여 접근하고 싶을 때 사용할 수 있는 method입니다.</br>
 iterrows는 row에 대해 반복하고, iteritems는 column에 대해 반복합니다.
 
 df라는 이름의 다음과 같은 DataFrame이 있을 때, df.iterrows()와 df.iteritems() 예시 코드입니다.
