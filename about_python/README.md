@@ -1,7 +1,7 @@
 # about_python
 
 ## 문자열
-1. 문자열 split하기
+* [문자열 split](https://github.com/zogak/dive_into_python/blob/main/about_python/split.py)
 
 ## JSON을 잘 다루는 법
 
