@@ -2,3 +2,4 @@
 .DS_Store
 
 sketch.py
+__pycache__/
