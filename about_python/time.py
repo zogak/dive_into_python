@@ -30,4 +30,3 @@ print(humanTime3)
 currentUnixUTC = currentUnixDatetimeFormat.replace(tzinfo = timezone.utc).timestamp()
 print('현재 unix UTC 시간 ', int(currentUnixUTC))
 print(datetime.datetime.fromtimestamp(currentUnixUTC).strftime('%Y-%m-%d %H:%M:%S'))
-
