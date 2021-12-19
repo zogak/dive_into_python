@@ -10,12 +10,20 @@ win.geometry("600x400")
 win.title("Sleeping Hour")
 win.option_add("*Font", "맑은고딕 20")
 
+when = StringVar()
+am = Radiobutton(win, text="오전", value = "am", variable=when)
+am.select()
+pm = Radiobutton(win, text="오후", value = "pm", variable=when)
+am.pack()
+pm.pack()
+
 wakeUpLabel = Label(win)
 wakeUpLabel.config(text = "일어나는 시간은?")
 wakeUpLabel.pack()
 
 wakeHour = Entry(win)
 wakeHour.pack()
+
 wakeMinute = Entry(win)
 wakeMinute.pack()
 
