@@ -1,10 +1,13 @@
-nums = [21, 51]
-# ans = ''
-# for num in nums:
-# 	ans.join(num)
-# 	ans.join("+")
-# print(ans)
+'''
+join
+'''
+#ex1
+chars = ['a', 'b', 'c']
+ex1 = "".join(chars)
+print(ex1)
 
-# res = ''
-# res.join(nums)
-# print(res)
+#ex2
+nums = [1, 2, 3]
+nums = map(str, nums)
+ex2 = "-".join(nums)
+print(ex2)
