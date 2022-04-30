@@ -12,3 +12,8 @@ def cookie(howMany):
 cookie(0)
 cookie(1)
 cookie(3)
+
+ans1 = 1
+ans2 = 2
+ans3 = 3
+print("my answer for ans1: {}, ans2: {} ,ans3: {}".format(ans1, ans2, ans3))
